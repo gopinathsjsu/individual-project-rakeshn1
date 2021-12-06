@@ -21,5 +21,19 @@ The following design patterns were used
 
 ## Test cases
 ### Test case 1
-Card intermdeiate output
+#### Card intermdeiate output
 ![image](https://github.com/gopinathsjsu/individual-project-rakeshn1/blob/main/images/inter1.png)
+
+#### Final output
+![image](https://github.com/gopinathsjsu/individual-project-rakeshn1/blob/main/images/output1.png)
+
+### Test case 2
+#### Final output
+![image](https://github.com/gopinathsjsu/individual-project-rakeshn1/blob/main/images/output2.png)
+
+### Test case 3
+#### Card intermdeiate output
+![image](https://github.com/gopinathsjsu/individual-project-rakeshn1/blob/main/images/inter3.png)
+
+#### Final output
+![image](https://github.com/gopinathsjsu/individual-project-rakeshn1/blob/main/images/output3.png)
