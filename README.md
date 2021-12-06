@@ -19,3 +19,7 @@ The following design patterns were used
 2) Chains of Responsibility
 3) Singleton
 
+## Test cases
+### Test case 1
+Card intermdeiate output
+![image](https://github.com/gopinathsjsu/individual-project-rakeshn1/blob/main/images/inter1.png)
