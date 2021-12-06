@@ -20,7 +20,13 @@ The following design patterns were used
 3) Singleton
 
 ### Builder Design Pattern
-Builder is a creational design pattern that lets us construct complex objects step by step. It is used to build complex objects. The builder pattern is used to build and store data in item storage. This involved several sub-tasks like reading data from file, creating objects of item class, and building item inventory. Since building this storage is a step that involves several processes, a builder pattern can be used to efficiently do the task. The same procedure is used to build card storage and the order from the given file.
+Builder is a creational design pattern that lets us construct complex objects step by step. It is used to build complex objects. The builder pattern is used to build and store data in item storage. This involved several sub-tasks like reading data from file, creating objects of item class, and building item inventory.
+It consists of:
+- Builder
+  - ItemStorageBuilder
+  - CardStorageBuilder
+  - OrderStorageBuilder
+These internally uses csvReaders to read aand store data. Since building this storage is a step that involves several processes, a builder pattern can be used to efficiently do the task. The same procedure is used to build card storage and the order from the given file.
 
 ### Chain of Responsibility
 It is a behavioral design pattern that lets us pass requests along a chain of handlers. This design pattern is used to validate if the given order can be processed to give an output file. The implementation involves a main handler with abstract methods and three validation handlers implementing these abstract methods. Each handler validates the order against given conditions and decides whether to give it for further processing or reject it with a suitable error message. 
