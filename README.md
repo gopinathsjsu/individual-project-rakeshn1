@@ -26,6 +26,7 @@ It consists of:
   - ItemStorageBuilder
   - CardStorageBuilder
   - OrderStorageBuilder
+  
 These internally uses csvReaders to read aand store data. Since building this storage is a step that involves several processes, a builder pattern can be used to efficiently do the task. The same procedure is used to build card storage and the order from the given file.
 
 ### Chain of Responsibility
