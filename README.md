@@ -29,6 +29,9 @@ Validation handlers include code for validating stock availability, stock existe
 ### Singleton Design Pattern
 Since there is only one common ItemStorage for all orders, it’s better to make the ItemStorage a singleton to make sure that only one instance of it is accessed in all the places. Similarly, CardStorage which is used to store card information is also made singleton.
 
+## Class Diagram
+![image](https://github.com/gopinathsjsu/individual-project-rakeshn1/blob/main/images/class.png)
+
 ## Test cases
 ### Test case 1
 #### Card intermdeiate output
